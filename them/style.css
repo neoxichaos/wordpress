@@ -1,0 +1,65 @@
+/*
+Theme Name: Template default
+Author: Romain Tharradin
+Description: Template WordPress d'exemple pour un article de WP Pour les Nuls
+Version: 0.0.1
+Tags: bootstrap
+Text Domain: Machin
+ */
+/* ############################### */
+html
+{
+    margin-top: 0;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* ############################### */
+header
+{
+    height: 700px;
+
+    background-color: #4d4d4d;
+}
+
+@media (min-width: 1200px)
+{
+    .container-fluid
+    {
+        margin-top: -32px; 
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* ############################### */
+.home .blanco_prod
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.home .blanco_prod .card-img-top
+{
+    height: 370px;
+
+    border-radius: 0; 
+    background-color: #fafafa;
+}
+.home .blanco_prod .card-title
+{
+    text-align: center;
+}
+
+/* ############################### */
+.nav-bar
+{
+    width: 100%; 
+
+    background-color: #4d4d4d;
+}
+
+/* ############################### */
