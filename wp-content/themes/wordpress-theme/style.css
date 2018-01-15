@@ -1,0 +1,95 @@
+/*
+Theme Name: Template default
+Author: Romain Tharradin
+Description: Template WordPress d'exemple pour un article de WP Pour les Nuls
+Version: 0.0.1
+Tags: bootstrap
+Text Domain: Machin
+ */
+/* ############################### */
+html
+{
+    margin-top: 0;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* ############################### */
+.home header
+{
+    height: 700px;
+
+    background-color: #4d4d4d;
+}
+
+.container-fluid
+{
+    margin-top: -32px; 
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.about .header
+{
+    height: 300px;
+
+    background-color: #4d4d4d;
+}
+
+/* ############################### */
+.home .blanco_prod
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.home .blanco_prod .blanco-span
+{
+    text-align: center;
+}
+.home .blanco_prod .blanco-head
+{
+    padding-bottom: 30px; 
+
+    text-align: center;
+}
+.home .blanco_prod .card-img-top
+{
+    height: 370px;
+
+    border-radius: 0; 
+    background-color: #fafafa;
+}
+.home .blanco_prod .card-title
+{
+    text-align: center;
+}
+.home .blanco_prod .card-text
+{
+    text-align: center;
+
+    color: #d14b4b;
+}
+
+/* ############################### */
+.nav-bar
+{
+    width: 100%; 
+
+    background-color: #4d4d4d;
+}
+.nav-bar a
+{
+    text-decoration: none;
+
+    color: white;
+}
+.nav-bar .dropdown-menu
+{
+    background-color: transparent;
+}
+
+/* ############################### */
