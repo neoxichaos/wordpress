@@ -16,9 +16,7 @@ Template name: about
     </head>
 
     <body class="about_us">
-        <?php
-        include_once('view/nav.php');
-    ?>
+        <?php include_once('view/nav.php');  ?>
             <header class="d-flex align-items-center justify-content-center">
                 <h1>ABOUT US</h1>
             </header>
@@ -229,7 +227,7 @@ Template name: about
 
                 </div>
             </main>
-            <?php include_once('view/footer.php') ?>
+            <?php include_once('view/footer.php'); ?>
     </body>
 
     </html>
