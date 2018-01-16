@@ -3,6 +3,22 @@
         height: 700px;
         background-color: #4d4d4d;
     }
+    h1 {
+        color: white;
+        font-size: 130pt;
+    }
+    section {
+        border: 10px solid white;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .home {
+        h1 {
+            font-size: 3em;
+        }
+    }
 }
 
 .container-fluid {
@@ -11,9 +27,10 @@
     margin-top: -32px;
 }
 
-.about {
-    .header {
-        height: 300px;
+.about_us {
+    header {
+        height: 400px;
         background-color: #4d4d4d;
+        margin-bottom: 30px;
     }
 }

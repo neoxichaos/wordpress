@@ -5,22 +5,18 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
+        <a class="navbar-brand" href="<?php bloginfo('url')?>">CLASSICO</a>
         <?php /* Primary navigation */
             wp_nav_menu( array(
             'menu' => 'top_menu',
             'depth' => 2,
             'container' => false,
-            'menu_class' => 'navbar-nav mr-auto mt-2 mt-lg-0',
+            'menu_class' => 'navbar-nav  mr-auto mt-2 mt-lg-0',
             'container_class' => 'test',
             //Process nav menu using our custom nav walker
             'walker' => new wp_bootstrap_navwalker())
             );
         ?>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>

@@ -11,6 +11,7 @@
         .blanco-head{
             text-align: center;
             padding-bottom: 30px;
+            margin-bottom: -350px;
         }
 
         .card-img-top{
@@ -25,6 +26,18 @@
         .card-text{
             text-align: center;
             color:#d14b4b;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .home{
+        .blanco_prod {
+            .blanco-head{
+                text-align: center;
+                padding-bottom: 30px;
+                margin-bottom: -80px;
+            }
         }
     }
 }
