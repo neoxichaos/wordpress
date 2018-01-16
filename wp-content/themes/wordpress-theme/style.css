@@ -83,8 +83,7 @@ body
 }
 .home .blanco_prod .blanco-head
 {
-    margin-bottom: -350px; 
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
 
     text-align: center;
 }
@@ -92,8 +91,10 @@ body
 {
     height: 370px;
 
-    border-radius: 0; 
+    border-radius: 0;
     background-color: #fafafa;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 .home .blanco_prod .card-title
 {
@@ -106,12 +107,31 @@ body
     color: #d14b4b;
 }
 
+.home .lastest .header
+{
+    color: black;
+}
+
+.home .lastest .body_last .card-img-top
+{
+    height: 200px;
+
+    border-radius: 0;
+    background-color: grey;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.home .lastest .body_last .card-desc
+{
+    font-size: .8em;
+}
+
 @media screen and (max-width: 1199px)
 {
     .home .blanco_prod .blanco-head
     {
-        margin-bottom: -80px; 
-        padding-bottom: 30px;
+        padding-bottom: 30px; 
 
         text-align: center;
     }
@@ -221,7 +241,6 @@ body
 .nav-bar
 {
     width: 100%;
-    margin-top: 32px;
     margin-bottom: -50px; 
 
     background-color: #4d4d4d;
@@ -265,4 +284,8 @@ footer a:hover
     text-decoration: none; 
 
     color: #c9302c;
+}
+footer a:target
+{
+    text-decoration: none;
 }
