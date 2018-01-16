@@ -240,3 +240,19 @@ body
 }
 
 /* ############################### */
+footer
+{
+    font-size: 1.3em;
+}
+footer a
+{
+    text-decoration: none; 
+
+    color: #d9534f;
+}
+footer a:hover
+{
+    text-decoration: none; 
+
+    color: #c9302c;
+}
