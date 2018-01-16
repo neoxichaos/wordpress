@@ -1,0 +1,13 @@
+@import "color.scss";
+
+footer {
+  font-size: 1.3em;
+  a{
+    color: $rouge;
+    text-decoration: none;
+  }
+  a:hover{
+    color: $rouge2;
+    text-decoration: none;
+  }
+}

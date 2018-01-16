@@ -1,8 +1,8 @@
 <footer class="container">
 	<div class="row">
-		<div class="col-lg-12">
+		<div class="col-lg-12 text-center">
    			 <hr>
-   				 <p>Créer par ..</p>
+   				 <p>Créer par <a href="https://github.com/Papyrus1er" target="_blank">Mourad</a> , <a href="https://github.com/sandrineMathieu68" target="_blank">Sandrine</a>, <a href="https://github.com/neoxichaos" target="_blank">Romain</a> et <a href="https://github.com/fsimmet3" target="_blank">Floriane</a></p>
 		</div>
 	</div>
   </footer>
