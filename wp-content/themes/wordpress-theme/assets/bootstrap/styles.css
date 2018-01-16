@@ -1,0 +1,32 @@
+/*
+Theme Name: Template default 
+Author: Romain Tharradin
+Description: Template WordPress d'exemple pour un article de WP Pour les Nuls
+Version: 0.0.1
+Tags: bootstrap
+Text Domain: Machin
+ */
+span
+{
+    color: green;
+}
+
+body
+{
+    background-color: green;
+}
+
+body
+{
+    color: blue;
+}
+body p
+{
+    display: none;
+
+    -webkit-transition: all 1s;
+
+    transition: all 1s; 
+
+    color: blue;
+}
