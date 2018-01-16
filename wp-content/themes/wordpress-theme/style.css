@@ -48,7 +48,7 @@ body
     border: 10px solid white;
 }
 
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 769px)
 {
     .home h1
     {
@@ -220,7 +220,9 @@ body
 /* ############################### */
 .nav-bar
 {
-    width: 100%; 
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: -50px; 
 
     background-color: #4d4d4d;
 }
@@ -237,6 +239,14 @@ body
 .nav-bar .navbar-brand
 {
     color: white;
+}
+
+@media screen and (max-width: 769px)
+{
+    .nav-bar
+    {
+        margin-top: 46px;
+    }
 }
 
 /* ############################### */
