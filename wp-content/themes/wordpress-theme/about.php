@@ -18,7 +18,7 @@ Template name: about
     <body class="about_us">
         <?php include_once('view/nav.php');  ?>
             <header class="d-flex align-items-center justify-content-center">
-                <h1>ABOUT US</h1>
+                <h1 class="ab">ABOUT US</h1>
             </header>
             <main class="container-fluid">
                 <div class="container">

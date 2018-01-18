@@ -1,19 +1,23 @@
 .about_us {
+
+    .ab{
+      color: white;
+    }
     .red{
         color: red;
       }
-      
+
       .grey{
         color: grey;
       }
-      
+
       .members{
         background-color: #fafafa;
       }
       section{
         padding-top: 100px;
       }
-      
+
       .individual{
         padding-bottom: 50px;
       }
@@ -26,17 +30,17 @@
         justify-content: center;
         align-items: center;
       }
-      
+
       .branding:hover{
         background-color: red;
         color: white;
       }
-      
+
       .brand{
         margin-top: 25px;
         margin-bottom: 25px;
       }
-      
+
       .imgs{
         background-color: black;
         border-radius: 50%;
