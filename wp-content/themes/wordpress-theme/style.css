@@ -33,8 +33,7 @@ body
 
     background-color: #4d4d4d;
 }
-
-.home h1
+.home header h1
 {
     font-size: 130pt; 
 
@@ -290,6 +289,18 @@ body
     background-color: #fafafa;
     background-repeat: no-repeat; 
     background-size: cover;
+}
+
+.error
+{
+    font-size: 4em; 
+
+    padding: 250px;
+}
+
+.back
+{
+    padding-top: 15px;
 }
 
 /* ############################### */

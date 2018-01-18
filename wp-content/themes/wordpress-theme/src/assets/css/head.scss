@@ -2,11 +2,12 @@
     header {
         height: 700px;
         background-color: #4d4d4d;
+        h1 {
+            color: white;
+            font-size: 130pt;
+        }
     }
-    h1 {
-        color: white;
-        font-size: 130pt;
-    }
+
     section {
         border: 10px solid white;
         padding: 50px;
