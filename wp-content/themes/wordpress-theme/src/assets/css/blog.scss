@@ -1,0 +1,26 @@
+@import "color.scss";
+.blog {
+    header {
+        .form-control {
+            border-radius: 0px;
+            border-right: 0px solid transparent;
+        }
+        button {
+            border-radius: 0px;
+            border-left: 0px solid transparent;
+        }
+        button:hover {
+            background-color: transparent;
+            color: black;
+        }
+        button:checked {
+            outline: none;
+        }
+        button:target {
+            background-color: black !important;
+        }
+        a {
+            color: black;
+        }
+    }
+}

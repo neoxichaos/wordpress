@@ -238,6 +238,56 @@ body
 }
 
 /* ############################### */
+.blog header .form-control
+{
+    border-right: 0 solid transparent; 
+    border-radius: 0;
+}
+
+.blog header button
+{
+    border-left: 0 solid transparent; 
+    border-radius: 0;
+}
+
+.blog header button:hover
+{
+    color: black; 
+    background-color: transparent;
+}
+
+.blog header button:checked
+{
+    outline: none;
+}
+
+.blog header button:target
+{
+    background-color: black !important;
+}
+
+.blog header a
+{
+    color: black;
+}
+
+/* ############################### */
+.article .nav-bar
+{
+    margin-bottom: 10px;
+}
+
+.article .card-img-top
+{
+    height: 370px;
+
+    border-radius: 0;
+    background-color: #fafafa;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* ############################### */
 .nav-bar
 {
     width: 100%;
